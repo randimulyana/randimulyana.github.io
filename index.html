@@ -9,6 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My Css -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio | Randi Mulyana</title>
@@ -70,13 +74,13 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae commodi consequatur, molestias nobis porro sint recusandae aliquid accusantium numquam magni mollitia repellat in doloremque, nostrum temporibus ea totam maiores
               harum?
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque asperiores voluptates recusandae provident inventore dolorum officiis laboriosam, eligendi corrupti facere, distinctio ea numquam laudantium quasi, adipisci
               voluptas a ipsam mollitia?
@@ -105,7 +109,7 @@
       </div>
       <div class="row justify-content-center m-3">
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500">
             <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -113,7 +117,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
             <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -121,7 +125,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
             <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -129,7 +133,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
             <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -137,7 +141,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
             <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -155,6 +159,72 @@
     </section>
 
     <!-- Akhir Projects -->
+
+    <!-- Galery -->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/1.jpg" alt="Galery 1" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/2.jpg" alt="Galery 2" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/3.jpg" alt="Galery 3" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/4.jpg" alt="Galery 4" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/5.jpg" alt="Galery 5" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/6.jpg" alt="Galery 6" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/7.jpg" alt="Galery 7" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/8.jpg" alt="Galery 8" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/9.jpg" alt="Galery 9" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/10.jpg" alt="Galery 10" width="300" height="300" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Galery -->
 
     <!-- Contact -->
 
@@ -214,6 +284,24 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 50;
+        img.dataset.aos.Duration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+    </script>
+
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbzbG6Qbocc52VHj7-HerniLuGBnNXVTFi818SZgT7hfosu2cdNJCRBzUhSJvaV_KGPBkw/exec";
       const form = document.forms["randz-form-contact"];
