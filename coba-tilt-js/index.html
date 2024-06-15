@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Tilt js</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .kotak {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        margin: 50px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak">
+      <h2>coba</h2>
+    </div>
+
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".kotak"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+  </body>
+</html>
